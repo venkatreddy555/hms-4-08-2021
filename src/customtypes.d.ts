@@ -1,9 +1,9 @@
 type User ={
-    UserId:number;
+    UserId:number | null;
     Username: string;
-    UserRoleId:number;
+    UserRoleId:number | null;
     Name:string;
-    age: number;
+    age: number | null;
     ImagePath:string;
     MobileNumber:string;
     IsActive:boolean;
